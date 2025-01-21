@@ -3,6 +3,6 @@
 # Brook Hamilton
 
 class DynamicArray:
-    def __init__(self, capacity: int):
+    def __init__(self, capacity=10):
         self.capacity = capacity
-        capacity = 10
+        self.arr = [None] * capacity
