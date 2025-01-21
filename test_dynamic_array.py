@@ -50,13 +50,13 @@ class TestDynamicArray(unittest.TestCase):
     # # """
 
     # # Hint: Do the naive thing.
-    # def test_append_one_value_to_empty(self):
-    #     """
-    #     Test 5: A single value can be appended to and retrieved from a dynamic array.
-    #     """
-    #     a = DynamicArray()
-    #     a.append(64)
-    #     self.assertEqual(64, a[0])
+    def test_append_one_value_to_empty(self):
+        """
+        Test 5: A single value can be appended to and retrieved from a dynamic array.
+        """
+        a = DynamicArray()
+        a.append(64)
+        self.assertEqual(64, a[0])
 
     # # """
     # # Appending and retrieving two values
